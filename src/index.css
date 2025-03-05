@@ -3,25 +3,30 @@ h1{
     font-size: 36px;
     line-height: 1.5;
     color: rgb(194, 119, 155);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h3{
+    text-align: center;
+    color: rgb(194, 119, 155);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body{
-    background-color: 	rgb(255,225,236);
+    background-color: 	rgb(255, 255, 255);
 }
 main{
     margin:80px auto;
     max-width:600px;
     background-color: rgb(230, 209, 212);
-    border-radius: 15px;
-    padding: 20px;
+    border-radius: 20px;
+    padding: 10px;
 }
 header{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 form{
-    
-    padding:30px;
-    border-radius: 30px;
+    border-color: rgb(130, 59, 115);
+    padding:40px;
+    border-radius: 20px;
     display:flex;
      
 }
@@ -30,36 +35,37 @@ a{
 }
 .instructions{
     padding:16px;
-    
+    border-color: rgb(130, 59, 115);
     width:80%;
     font-size: 16px;
-    line-height: 20px;
-    color: rgb(194, 119, 155); ;
-    border-radius: 30px;
+    border: none;
+    color:rgb(130, 59, 115);
+    border-radius: 15px;
     
 }
 .submit-button{
     margin-left: 10px;
-    background-color: ivory;
+    background-color: rgb(194, 119, 155);
     padding:20px;
-    color: pink;
+    color: ivory;
     border:rgb(194, 119, 155);
     width: 150px;
     font-size:16px;
-    border-radius:30px;
+    border-radius: 15px;
     padding:14px 24px;
     box-shadow:  0 20px 60px rgba(116, 47, 103, 0.233) ;
 }
+
 .poem{
     font-size: 14px;
-    
+    color: rgb(130, 59, 115);
     padding:20px;
     box-shadow: 0 10px 30px rgba(116, 47, 103, 0.233);
     border-radius:10px;
 }
 footer{
     text-align: center;
-    font-size: 12px;
-    margin-top: 15px;
+    font-size: 14px;
+    margin-top: 5px;
     
 }
