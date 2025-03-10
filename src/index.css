@@ -34,7 +34,7 @@ a{
     color: rgb(194, 119, 155);
 }
 .instructions{
-    padding:16px;
+    padding:20px;
     border-color: rgb(130, 59, 115);
     width:80%;
     font-size: 16px;
@@ -55,18 +55,25 @@ a{
     padding:14px 24px;
     box-shadow:  0 20px 60px rgba(116, 47, 103, 0.233) ;
 }
-.container{
+
+.poem{
     font-size: 14px;
     color: rgb(130, 59, 115);
     padding:20px;
     box-shadow: 0 10px 30px rgba(116, 47, 103, 0.233);
     border-radius:10px;
 }
-.poem{
-    display: flex;
-}
 .hint{
-    font-size: 10px;
+    line-height: 5px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    color: rgb(130, 59, 115);
+    font-size: 12px;
+    text-align: justify;
+}
+.container{
+    margin: 40px;
+    margin-top: 10px;
 }
 footer{
     text-align: center;

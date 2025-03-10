@@ -13,7 +13,7 @@ function generatePoem(event){
 
     let inputInstructions = document.querySelector("#input-instructions");
     let apiKey = "oe1f0572f4bt753a71ffbc4045676795";
-    let prompt = `Generate a poem in Japanese about ${inputInstructions}. There is no title. Separate each line using <br />. Please follow the instructions for every entry and be as accurate as possible.`;
+    let prompt = `Generate a poem in Japanese about ${inputInstructions}. There is no title. Separate each line using <br />. Please follow the instructions for every entry and be as accurate as possible. Write the translation in english after each line.`;
     let context = "You are specialised in short romantic Japanese poetry"
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`
 
