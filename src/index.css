@@ -1,4 +1,5 @@
 h1{
+    padding:30px;
     text-align: center;
     font-size: 36px;
     line-height: 1.5;
@@ -6,6 +7,7 @@ h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 h3{
+    padding: 0;
     text-align: center;
     color: rgb(194, 119, 155);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -14,18 +16,18 @@ body{
     background-color: 	rgb(255, 255, 255);
 }
 main{
-    margin:80px auto;
+    margin:60px auto;
     max-width:600px;
     background-color: rgb(230, 209, 212);
     border-radius: 20px;
     padding: 10px;
 }
 header{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 form{
     border-color: rgb(130, 59, 115);
-    padding:40px;
+    padding:30px;
     border-radius: 20px;
     display:flex;
      
@@ -55,29 +57,60 @@ a{
     padding:14px 24px;
     box-shadow:  0 20px 60px rgba(116, 47, 103, 0.233) ;
 }
-
-.poem{
-    font-size: 14px;
+.hidden{
+    display:none;
     color: rgb(130, 59, 115);
-    padding:20px;
+}
+.poem{
+    
+    font-size: 16px;
+    color: rgb(130, 59, 115);
+    line-height: 5px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    display: none;
     box-shadow: 0 10px 30px rgba(116, 47, 103, 0.233);
     border-radius:10px;
 }
 .hint{
     line-height: 5px;
-    margin-bottom: 5px;
-    margin-left: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
     color: rgb(130, 59, 115);
     font-size: 12px;
-    text-align: justify;
+    
 }
 .container{
+    padding: 20px 20px;
     margin: 40px;
     margin-top: 10px;
+    color: rgb(130, 59, 115);
 }
+.generating{
+    animation:blink-animation 1s steps(5, start) infinite;
+    line-height: 5px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: rgb(130, 59, 115);
+    font-size: 15px;
+    
+}
+
+@keyframes blink-animation {
+    to {
+        visibility:hidden;
+    }
+    
+}
+@-webkit-keyframes blink-animation{
+    to{
+        visibility: hidden;
+    }
+}
+
 footer{
     text-align: center;
     font-size: 14px;
-    margin-top: 5px;
+    margin-top: 0;
     
 }
